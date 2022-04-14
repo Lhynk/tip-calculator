@@ -1,0 +1,23 @@
+.input-wrapper {
+  @apply relative;
+}
+
+.input {
+  @apply w-full
+  h-11
+  px-5
+  py-4
+  bg-cyan-lighter 
+  text-cyan-darker
+  text-2xl
+  text-right
+  rounded-md
+  outline-none;
+}
+
+.input__icon {
+  @apply absolute
+  top-1/2
+  left-5
+  -translate-y-1/2;
+}

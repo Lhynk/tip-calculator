@@ -1,0 +1,21 @@
+.tip-selector {
+  @apply grid grid-cols-2 gap-4 justify-items-stretch;
+}
+
+.tip-selector__check {
+  @apply appearance-none absolute;
+}
+
+.tip-selector__check + .tip-selector__label {
+  @apply flex justify-center items-center
+  h-11
+  py-3
+  text-2xl text-center
+  text-white bg-cyan-darker
+  rounded
+  transition-colors;
+}
+
+.tip-selector__check:checked + .tip-selector__label {
+  @apply bg-cyan text-cyan-darker;
+}
